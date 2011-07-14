@@ -1,0 +1,465 @@
+<openbox_pipe_menu>
+<item label="Browse here..">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv/'</execute>
+	</action>
+</item>
+<separator /><item label="American.Dad.S06E13.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//American.Dad.S06E13.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="bobs.burgers.101.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//bobs.burgers.101.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="bobs.burgers.102.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//bobs.burgers.102.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="bobs.burgers.103.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//bobs.burgers.103.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="Bones.S06E20.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Bones.S06E20.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Burn.Notice.S05E03.HDTV.XviD-ASAP" label="Burn.Notice.S05E03.HDTV.XviD-ASAP" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Burn.Notice.S05E03.HDTV.XviD-ASAP" />
+<item label="Chuck.S04E20.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Chuck.S04E20.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="community.202.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//community.202.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="community.209.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//community.209.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="community.211.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//community.211.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="community.212.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//community.212.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="Community.S01E01.DVDRip.XviD-SAiNTS.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Community.S01E01.DVDRip.XviD-SAiNTS.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Community.S01.RETAiL.DVDRip.XviD-SAiNTS" label="Community.S01.RETAiL.DVDRip.XviD-SAiNTS" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Community.S01.RETAiL.DVDRip.XviD-SAiNTS" />
+<item label="community.s02e01.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//community.s02e01.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="Community.S02E03.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Community.S02E03.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="Community.S02E04.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Community.S02E04.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="Community.S02E05.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Community.S02E05.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="Community.S02E06.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Community.S02E06.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="Community.S02E07.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Community.S02E07.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="community.s02e08.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//community.s02e08.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="Community.S02E10.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Community.S02E10.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Community.Season.2.XviD-BTN" label="Community.Season.2.XviD-BTN" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Community.Season.2.XviD-BTN" />
+<item label="covert.affairs.202.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//covert.affairs.202.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="covert.affairs.206.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//covert.affairs.206.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Covert.Affairs.S01.HDTV.XviD-FQM" label="Covert.Affairs.S01.HDTV.XviD-FQM" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Covert.Affairs.S01.HDTV.XviD-FQM" />
+<item label="covert.affairs.s02e01.hdtv.xvid-asap.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//covert.affairs.s02e01.hdtv.xvid-asap.avi'</execute>
+	</action>
+</item>
+<item label="covert.affairs.s02e03.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//covert.affairs.s02e03.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="Covert.Affairs.S02E04.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Covert.Affairs.S02E04.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="covert.affairs.s02e05.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//covert.affairs.s02e05.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Doogie\ Howser\ Season\ 1" label="Doogie\ Howser\ Season\ 1" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Doogie\ Howser\ Season\ 1" />
+<item label="fairly.legal.s01e09.hdtv.xvid-fever.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//fairly.legal.s01e09.hdtv.xvid-fever.avi'</execute>
+	</action>
+</item>
+<item label="family.guy.912.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//family.guy.912.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="family.guy.913.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//family.guy.913.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="family.guy.916.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//family.guy.916.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="Family.Guy.S09E15.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Family.Guy.S09E15.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Father\ Ted\ -\ Season\ 1\ [BTN]" label="Father\ Ted\ -\ Season\ 1\ [BTN]" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Father\ Ted\ -\ Season\ 1\ [BTN]" />
+<item label="franklin.and.bash.s01e01.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//franklin.and.bash.s01e01.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="franklin.and.bash.s01e02.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//franklin.and.bash.s01e02.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="franklin.and.bash.s01e03.hdtv.xvid-asap.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//franklin.and.bash.s01e03.hdtv.xvid-asap.avi'</execute>
+	</action>
+</item>
+<item label="franklin.and.bash.s01e04.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//franklin.and.bash.s01e04.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Franklin.and.Bash.S01E05.HDTV.XviD-ASAP" label="Franklin.and.Bash.S01E05.HDTV.XviD-ASAP" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Franklin.and.Bash.S01E05.HDTV.XviD-ASAP" />
+<item label="franklin.and.bash.s01e06.hdtv.xvid-asap.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//franklin.and.bash.s01e06.hdtv.xvid-asap.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Franklink.and.Bash.S01E05.You.Cant.Take.it.With.You.PROPER.HDTV.XviD-FQM" label="Franklink.and.Bash.S01E05.You.Cant.Take.it.With.You.PROPER.HDTV.XviD-FQM" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Franklink.and.Bash.S01E05.You.Cant.Take.it.With.You.PROPER.HDTV.XviD-FQM" />
+<menu id="/redundant/tv//Friday.Night.Lights.S05.HDTV.XViD-BTN" label="Friday.Night.Lights.S05.HDTV.XViD-BTN" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Friday.Night.Lights.S05.HDTV.XViD-BTN" />
+<item label="game.of.thrones.s01e01.hdtv.xvid-fever.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//game.of.thrones.s01e01.hdtv.xvid-fever.avi'</execute>
+	</action>
+</item>
+<item label="game.of.thrones.s01e02.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//game.of.thrones.s01e02.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="game.of.thrones.s01e03.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//game.of.thrones.s01e03.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="game.of.thrones.s01e04.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//game.of.thrones.s01e04.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="game.of.thrones.s01e05.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//game.of.thrones.s01e05.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="game.of.thrones.s01e06.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//game.of.thrones.s01e06.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="game.of.thrones.s01e07.webrip.wmv">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//game.of.thrones.s01e07.webrip.wmv'</execute>
+	</action>
+</item>
+<item label="game.of.thrones.s01e08.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//game.of.thrones.s01e08.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="game.of.thrones.s01e09.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//game.of.thrones.s01e09.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="game.of.thrones.s01e10.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//game.of.thrones.s01e10.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Holmes.On.Homes.S01.DVDRip.XviD-FFNDVD" label="Holmes.On.Homes.S01.DVDRip.XviD-FFNDVD" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Holmes.On.Homes.S01.DVDRip.XviD-FFNDVD" />
+<item label="house.721.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//house.721.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="house.722.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//house.722.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="House.S07E18.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//House.S07E18.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="House.S07E20.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//House.S07E20.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="house.s07e23.moving.on.hdtv.xvid-2hd.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//house.s07e23.moving.on.hdtv.xvid-2hd.avi'</execute>
+	</action>
+</item>
+<item label="how.i.met.your.mother.620.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//how.i.met.your.mother.620.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="how.i.met.your.mother.623.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//how.i.met.your.mother.623.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="how.i.met.your.mother.624.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//how.i.met.your.mother.624.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="How.I.Met.Your.Mother.S06E22.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//How.I.Met.Your.Mother.S06E22.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Pillars.of.the.Earth.BDRip.XviD-REWARD" label="Pillars.of.the.Earth.BDRip.XviD-REWARD" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Pillars.of.the.Earth.BDRip.XviD-REWARD" />
+<item label="royal.pains.s03e01.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//royal.pains.s03e01.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="Royal.Pains.S03E02.HDTV.XviD-ASAP.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//Royal.Pains.S03E02.HDTV.XviD-ASAP.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Season\ 4\ (DVDRip)" label="Season\ 4\ (DVDRip)" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Season\ 4\ (DVDRip)" />
+<menu id="/redundant/tv//Skins.S01.DVDRip.XviD" label="Skins.S01.DVDRip.XviD" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Skins.S01.DVDRip.XviD" />
+<menu id="/redundant/tv//Skins.S03.DVDRip.XviD-REWARD" label="Skins.S03.DVDRip.XviD-REWARD" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Skins.S03.DVDRip.XviD-REWARD" />
+<menu id="/redundant/tv//Skins.S04.DVDRip.XViD-BTN" label="Skins.S04.DVDRip.XViD-BTN" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Skins.S04.DVDRip.XViD-BTN" />
+<item label="skins.s05e01.hdtv.xvid-bia.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//skins.s05e01.hdtv.xvid-bia.avi'</execute>
+	</action>
+</item>
+<item label="skins.s05e02.hdtv.xvid-bia.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//skins.s05e02.hdtv.xvid-bia.avi'</execute>
+	</action>
+</item>
+<item label="skins.s05e03.hdtv.xvid-bia.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//skins.s05e03.hdtv.xvid-bia.avi'</execute>
+	</action>
+</item>
+<item label="skins.s05e04.hdtv.xvid-bia.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//skins.s05e04.hdtv.xvid-bia.avi'</execute>
+	</action>
+</item>
+<item label="skins.s05e05.hdtv.xvid-bia.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//skins.s05e05.hdtv.xvid-bia.avi'</execute>
+	</action>
+</item>
+<item label="skins.s05e06.repack.hdtv.xvid-bia.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//skins.s05e06.repack.hdtv.xvid-bia.avi'</execute>
+	</action>
+</item>
+<item label="skins.s05e07.hdtv.xvid-bia.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//skins.s05e07.hdtv.xvid-bia.avi'</execute>
+	</action>
+</item>
+<item label="skins.s05e08.hdtv.xvid-bia.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//skins.s05e08.hdtv.xvid-bia.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Skins.Season.02.DVDRip" label="Skins.Season.02.DVDRip" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Skins.Season.02.DVDRip" />
+<item label="suits.s01e01.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//suits.s01e01.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="suits.s01e02.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//suits.s01e02.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//Suits.S01E03.Inside.Track.HDTV.XviD-FQM" label="Suits.S01E03.Inside.Track.HDTV.XviD-FQM" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//Suits.S01E03.Inside.Track.HDTV.XviD-FQM" />
+<item label="the.big.bang.theory.s04e21.hdtv.xvid-asap.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//the.big.bang.theory.s04e21.hdtv.xvid-asap.avi'</execute>
+	</action>
+</item>
+<item label="the.big.bang.theory.s04e22.hdtv.xvid-asap.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//the.big.bang.theory.s04e22.hdtv.xvid-asap.avi'</execute>
+	</action>
+</item>
+<item label="the.big.bang.theory.s04e23.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//the.big.bang.theory.s04e23.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="the.big.bang.theory.s04e24.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//the.big.bang.theory.s04e24.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//The.IT.Crowd.S01.PROPER.WS.DVDRip.XviD-iNGOT" label="The.IT.Crowd.S01.PROPER.WS.DVDRip.XviD-iNGOT" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//The.IT.Crowd.S01.PROPER.WS.DVDRip.XviD-iNGOT" />
+<menu id="/redundant/tv//The.IT.Crowd.S02.DVDRip.XviD-HAGGiS" label="The.IT.Crowd.S02.DVDRip.XviD-HAGGiS" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//The.IT.Crowd.S02.DVDRip.XviD-HAGGiS" />
+<item label="The.Mentalist.S03E22.HDTV.XviD-P0W4.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//The.Mentalist.S03E22.HDTV.XviD-P0W4.avi'</execute>
+	</action>
+</item>
+<item label="the.office.716.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//the.office.716.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="the.office.717.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//the.office.717.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="the.office.718.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//the.office.718.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="the.office.719.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//the.office.719.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="The.Office.S07E20.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//The.Office.S07E20.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="The.Office.S07E21.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//The.Office.S07E21.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="The.Office.S07E23.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//The.Office.S07E23.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="the.office.us.s07e15.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//the.office.us.s07e15.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="the.office.us.s07e22.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//the.office.us.s07e22.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//The.Wire.S03.DVDRip.XviD-BTN" label="The.Wire.S03.DVDRip.XviD-BTN" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//The.Wire.S03.DVDRip.XviD-BTN" />
+<menu id="/redundant/tv//The.Wire.S05.DVDRip.XviD-ORPHEUS" label="The.Wire.S05.DVDRip.XviD-ORPHEUS" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//The.Wire.S05.DVDRip.XviD-ORPHEUS" />
+<menu id="/redundant/tv//The\ Wire\ Season\ 1" label="The\ Wire\ Season\ 1" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//The\ Wire\ Season\ 1" />
+<item label="white.collar.304.hdtv-lol.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//white.collar.304.hdtv-lol.avi'</execute>
+	</action>
+</item>
+<item label="White.Collar.S02E14.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//White.Collar.S02E14.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="white.collar.s03e01.hdtv.xvid-asap.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//white.collar.s03e01.hdtv.xvid-asap.avi'</execute>
+	</action>
+</item>
+<item label="white.collar.s03e02.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//white.collar.s03e02.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="white.collar.s03e03.hdtv.xvid-fqm.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//white.collar.s03e03.hdtv.xvid-fqm.avi'</execute>
+	</action>
+</item>
+<item label="White.Collar.S03E05.HDTV.XviD-LOL.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//White.Collar.S03E05.HDTV.XviD-LOL.avi'</execute>
+	</action>
+</item>
+<item label="white.collar.s03e06.hdtv.xvid-asap.avi">
+	<action name="Execute">
+		<execute>thunar '/redundant/tv//white.collar.s03e06.hdtv.xvid-asap.avi'</execute>
+	</action>
+</item>
+<menu id="/redundant/tv//{\ www.SceneTime.com\ }\ -White.Collar.S03E05.HDTV.XviD-LOL" label="{\ www.SceneTime.com\ }\ -White.Collar.S03E05.HDTV.XviD-LOL" execute="/home/jmeb/.config/openbox/pipemenus/obpipemenu-places /redundant/tv//{\ www.SceneTime.com\ }\ -White.Collar.S03E05.HDTV.XviD-LOL" />
+</openbox_pipe_menu>
