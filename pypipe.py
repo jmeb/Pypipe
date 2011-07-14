@@ -45,7 +45,7 @@ def print_file(fn,prg):
     print '\t</action>'
     print '</item>'
 
-def print_browse(src):
+def print_browse(src,prg):
     print '<item label="Browse here...">'
     print '\t<action name="Execute">'
     print "\t\t<execute>%s '%s' </execute>" % (prg, os.path.abspath(src))
@@ -62,7 +62,7 @@ def main():
     src = os.path.abspath(sys.argv[1])
     recents = recent_file_list(src)
     print "<openbox_pipe_menu>"
-    print_browse(src)
+    print_browse(src,XDG)
     printing(recents)
     print "</openbox_pipe_menu>"
 
