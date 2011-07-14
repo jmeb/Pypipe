@@ -40,15 +40,15 @@ def printing(recents):
             print_file(f,VIDPRG)
 
 def print_file(fn,prg):
-    print '<item label="%s...">' % fn[:15]
+    print '<item label="%s...">' % fn[:20]
     print '\t<action name="Execute">'
     print "\t\t<execute>%s '%s' </execute>" % (prg, os.path.abspath(fn))
     print '\t</action>'
     print '</item>'
 
 def print_dir(src,pypipe):
-    print '<menu id="%s" label="%s..." execute="%s" />' % (src[:15],
-                                src[:15],pypipe + os.path.abspath(src))
+    print '<menu id="%s" label="%s..." execute="%s" />' % (src[:20],
+                                src[:20],pypipe + os.path.abspath(src))
 def main():
     
     src = os.path.abspath(sys.argv[1])
