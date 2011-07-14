@@ -12,19 +12,11 @@ import os
 ###
 
 DIRPRG = "thunar"       #Program to open directories
-FILEPRG = "vlc"         #Program to open files
-PYPIPE = "~/Dropbox/code/python/pypipe.py "
+VIDPRG = "vlc"         #Program to open files
+#Finish types implementation
+VIDTYPES = ( "avi", "mpg", "mkv", "m4v", "flv", )
+PYPIPE = str(os.path.abspath(__file__)) + " "
 
-def print_file(fn,prg):
-    print '<item label="%s">' % fn
-    print '\t<action name="Execute">'
-    print "\t\t<execute>%s '%s' </execute>" % (prg, os.path.abspath(fn))
-    print '\t</action>'
-    print '</item>'
-
-def print_dir(src,pypipe):
-    print '<menu id="%s" label="%s" execute="%s" />' % (os.path.abspath(src),
-                                          src,pypipe + os.path.abspath(src))
     
 def recent_file_list(src):
     files = []
@@ -45,19 +37,24 @@ def printing(recents):
         if os.path.isdir(os.path.abspath(f)):
             print_dir(f,PYPIPE) 
         else:
-            print_file(f,FILEPRG)
+            print_file(f,VIDPRG)
 
+def print_file(fn,prg):
+    print '<item label="%s...">' % fn[:15]
+    print '\t<action name="Execute">'
+    print "\t\t<execute>%s '%s' </execute>" % (prg, os.path.abspath(fn))
+    print '\t</action>'
+    print '</item>'
+
+def print_dir(src,pypipe):
+    print '<menu id="%s" label="%s..." execute="%s" />' % (src[:15],
+                                src[:15],pypipe + os.path.abspath(src))
 def main():
     
     src = os.path.abspath(sys.argv[1])
-
     recents = recent_file_list(src)
-
-    #The actual output
     print "<openbox_pipe_menu>"
-    
     printing(recents)
-
     print "</openbox_pipe_menu>"
 
 if __name__ == '__main__':
