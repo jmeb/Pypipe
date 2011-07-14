@@ -6,15 +6,14 @@
 
 import sys
 import os
+import re
 
 ###
 # Global Variables
 ###
 
-DIRPRG = "thunar"       #Program to open directories
-VIDPRG = "vlc"         #Program to open files
-#Finish types implementation
-VIDTYPES = ( "avi", "mpg", "mkv", "m4v", "flv", )
+EXO = "exo-open"        #Opens file with default (XFCE)
+XDG = "xdg-open"        #Opens file with default (Openbox) 
 PYPIPE = str(os.path.abspath(__file__)) + " "
 
     
@@ -37,7 +36,7 @@ def printing(recents):
         if os.path.isdir(os.path.abspath(f)):
             print_dir(f,PYPIPE) 
         else:
-            print_file(f,VIDPRG)
+            print_file(f,XDG)
 
 def print_file(fn,prg):
     print '<item label="%s...">' % fn[:20]
@@ -46,14 +45,24 @@ def print_file(fn,prg):
     print '\t</action>'
     print '</item>'
 
+def print_browse(src):
+    print '<item label="Browse here...">'
+    print '\t<action name="Execute">'
+    print "\t\t<execute>%s '%s' </execute>" % (prg, os.path.abspath(src))
+    print '\t</action>'
+    print '</item>'
+
 def print_dir(src,pypipe):
-    print '<menu id="%s" label="%s..." execute="%s" />' % (src[:20],
-                                src[:20],pypipe + os.path.abspath(src))
+    slashedpath = re.sub(r"\s","\ ",os.path.abspath(src))
+    print '<menu id="%s" label="%s..." execute="%s" />' % (src[:10],
+                                src[:20],pypipe + slashedpath)
+
 def main():
     
     src = os.path.abspath(sys.argv[1])
     recents = recent_file_list(src)
     print "<openbox_pipe_menu>"
+    print_browse(src)
     printing(recents)
     print "</openbox_pipe_menu>"
 
