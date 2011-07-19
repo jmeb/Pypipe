@@ -18,52 +18,58 @@ PYPIPE = str(os.path.abspath(__file__)) + " "
 
     
 def recent_file_list(src):
+    ''' Return a list of full paths for files most recent first '''
     files = []
     os.chdir(src)
-    # Get a list of tuples of filenames and their times modified.
     for fn in os.listdir(src):
-        mtime = os.path.getmtime(os.path.abspath(fn))
-        timename = mtime, fn
+        #Create a tuple (time modified, filename path)
+        timename = os.path.getmtime(fn), os.path.abspath(fn)
         files.append(timename)
     # Sort the list by times, newest first
+    # To sort by oldest first, remove set reverse to False
     recenttuples = sorted(files, reverse=True)
-    # Get the names only, ina new list
-    recents = [ t[1] for t in recenttuples ]
+    # Get the names only, in a new list
+    recents =  []
+    for t in recenttuples:
+        #Replace '&'s to avoid openbox xml problems
+        ampedpath = re.sub(r"&","&amp;",t[1])
+        recents.append(ampedpath)
     return recents
 
-def printing(recents):
+def printLoop(recents):
+    ''' Decide whether to print a file or menu listing '''
     for f in recents:
-        if os.path.isdir(os.path.abspath(f)):
+        if os.path.isdir(f):
             print_dir(f,PYPIPE) 
         else:
-            print_file(f,XDG)
+            print_item(f,XDG,os.path.basename(f)[:20])
 
-def print_file(fn,prg):
-    print '<item label="%s...">' % fn[:20]
+def print_item(fn,prg,label):
+    ''' General item printing '''
+    print '<item label="%s">' % label
     print '\t<action name="Execute">'
-    print "\t\t<execute>%s '%s' </execute>" % (prg, os.path.abspath(fn))
-    print '\t</action>'
-    print '</item>'
-
-def print_browse(src,prg):
-    print '<item label="Browse here...">'
-    print '\t<action name="Execute">'
-    print "\t\t<execute>%s '%s' </execute>" % (prg, os.path.abspath(src))
+    print "\t\t<execute>%s '%s' </execute>" % (prg, fn)
     print '\t</action>'
     print '</item>'
 
 def print_dir(src,pypipe):
-    slashedpath = re.sub(r"\s","\ ",os.path.abspath(src))
-    print '<menu id="%s" label="%s..." execute="%s" />' % (src[:10],
-                                src[:20],pypipe + slashedpath)
+    ''' Print a listing for directory menu '''
+    #Escape whitespace for directory names
+    slashedpath = re.sub(r"\s","\ ",src) 
+    print '<menu id="%s" label="%s..." execute="%s" />' % (src,
+                                os.path.basename(src)[:20],pypipe + slashedpath)
 
 def main():
-    
     src = os.path.abspath(sys.argv[1])
-    recents = recent_file_list(src)
     print "<openbox_pipe_menu>"
-    print_browse(src,XDG)
-    printing(recents)
+    if os.path.exists(src) is False:
+      print_item("no","no","Directory not mounted")  
+      print_item("/home/",XDG,"Browse home...")
+      print "</openbox_pipe_menu>"
+      sys.exit()
+    recents = recent_file_list(src)
+    print_item(src,XDG,"Browse here...")
+    printLoop(recents)
     print "</openbox_pipe_menu>"
 
 if __name__ == '__main__':
