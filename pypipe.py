@@ -40,9 +40,9 @@ def printLoop(recents):
     ''' Decide whether to print a file or menu listing '''
     for f in recents:
         if os.path.isdir(f):
-            print_dir(f,PYPIPE) 
+            print_menu(f,PYPIPE) 
         else:
-            print_item(f,XDG,os.path.basename(f)[:20])
+            print_item(f,XDG,os.path.basename(f))
 
 def print_item(fn,prg,label):
     ''' General item printing '''
@@ -52,23 +52,23 @@ def print_item(fn,prg,label):
     print '\t</action>'
     print '</item>'
 
-def print_dir(src,pypipe):
+def print_menu(src,pypipe):
     ''' Print a listing for directory menu '''
     #Escape whitespace for directory names
     slashedpath = re.sub(r"\s","\ ",src) 
     print '<menu id="%s" label="%s..." execute="%s" />' % (src,
-                                os.path.basename(src)[:20],pypipe + slashedpath)
+                                os.path.basename(src),pypipe + slashedpath)
 
 def main():
     src = os.path.abspath(sys.argv[1])
     print "<openbox_pipe_menu>"
     if os.path.exists(src) is False:
-      print_item("no","no","Directory not mounted")  
+      print_item("no","no","Directory does not exist? ")  
       print_item("/home/",XDG,"Browse home...")
       print "</openbox_pipe_menu>"
       sys.exit()
     recents = recent_file_list(src)
-    print_item(src,XDG,"Browse here...")
+    print_item(src,XDG,"Browse...")
     printLoop(recents)
     print "</openbox_pipe_menu>"
 
