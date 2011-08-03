@@ -17,7 +17,7 @@ XDG = "xdg-open"        #Opens file with default (Openbox)
 PYPIPE = str(os.path.abspath(__file__)) + " "
 
     
-def recent_file_list(src):
+def recent_file_list(src,sortsty,tosort):
     ''' Return a list of full paths for files most recent first '''
     files = []
     os.chdir(src)
