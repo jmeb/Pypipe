@@ -1,0 +1,7 @@
+#Pypipe
+
+  Pypipe is an pipemenu script for the [Openbox][] window manager. It outputs a list of files in a directory sorted by their time modified. With the newest files listed first, its useful for directories like your downloads folder. The syntax is straight forward:
+
+    pypipe.py ~/downloads
+
+In the future, other ways of sorting might be enabled.
